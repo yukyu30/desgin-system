@@ -1,4 +1,20 @@
-# デザインシステム
+# flyby
+
+status: under development
+
+## about flyby
+
+flyby is Design System.
+
+### 目的
+
+- 策定中
+
+### デザイン原則
+
+- 策定中
+
+## development
 
 ## Storybook
 
