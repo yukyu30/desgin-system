@@ -1,18 +1,18 @@
 import React from 'react';
 import { ComponentStory, ComponentMeta } from '@storybook/react';
 import { within, userEvent } from '@storybook/testing-library';
-import { Page } from './Page';
+import { Color } from '.';
 
 export default {
-  title: 'Example/Page',
-  component: Page,
+  title: 'Documents/Color',
+  component: Color,
   parameters: {
     // More on Story layout: https://storybook.js.org/docs/react/configure/story-layout
     layout: 'fullscreen',
   },
-} as ComponentMeta<typeof Page>;
+} as ComponentMeta<typeof Color>;
 
-const Template: ComponentStory<typeof Page> = (args) => <Page {...args} />;
+const Template: ComponentStory<typeof Color> = (args) => <Color {...args} />;
 
 export const LoggedOut = Template.bind({});
 
