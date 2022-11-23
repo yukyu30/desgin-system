@@ -1,13 +1,7 @@
-import { pseudoRandomBytes } from 'crypto';
 import React from 'react';
 import Token from '../../../tokens/tokens.json'
-import { Header } from '../../components/Header'
 import { ColorPreview } from '../components/colorPreview';
 import './page.css';
-
-type User = {
-  name: string;
-};
 interface Colors {
   [key: string]: {
     value : string
@@ -20,10 +14,7 @@ export const Color: React.VFC = () => {
 
 
   return (
-    <article>
-      <section>
-        <h2>Color</h2>
-        <h3>Primitive Color</h3>
+
         <table>
           <thead>
               <tr>
@@ -42,7 +33,6 @@ export const Color: React.VFC = () => {
           ))}
           </tbody>
         </table>
-      </section>
-    </article>
+  
   );
 };
